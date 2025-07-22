@@ -1,0 +1,46 @@
+name: CI build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    env:
+      PY_COLORS: "1"
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.9.1
+    - name: Install dependencies
+      run: |
+        python -m pip install pipenv
+        pipenv install
+    - name: Install SeleniumBase
+      run: |
+        pip install .
+    - name: Install Chrome
+      run: |
+        sudo apt install google-chrome-stable
+    - name: Check the console scripts interface
+      run: |
+        pipenv run seleniumbase
+        pipenv run sbase
+    - name: Install chromedriver
+      run: |
+        pipenv run seleniumbase install chromedriver
+    - name: Make sure pytest is working
+      run: |
+        echo "def test_1(): pass" > nothing.py
+        pipenv run pytest nothing.py
+    - name: Run pytest examples/unit_tests/verify_framework.py --browser=chrome --headless
+      run: |
+        pipenv run pytest pom_tests/test_menu.py --browser=chrome --headless -v -s
