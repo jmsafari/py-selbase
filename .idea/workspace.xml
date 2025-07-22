@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b65380-c6cf-4ba4-8b52-88ee2e62df90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom_tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom_tests/test_menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom_website_pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom_website_pages/home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_website.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_url_title.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +43,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for test_menu.TestMenu.test_my_menus.executor": "Run",
     "Python tests.Python tests for test_url_title.UrlTile.executor": "Run",
     "Python tests.Python tests for test_url_title.UrlTile.test_url_title.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_checkbox.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_dropdown.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_hover_dropdown.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_iframe.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_multiple_elements.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_new_tab.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_progessbar.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_type_click_assert_page.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_type_click_assert_page_using_xpath.executor": "Run",
+    "Python tests.Python tests for test_website.TestWebsite.test_verify_homepage_url_title.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
@@ -53,24 +74,24 @@
       <recent name="C:\Users\jmsaf\PycharmProjects\PythonProject\SeleniumBase-course" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_url_title.UrlTile.test_url_title">
-    <configuration name="Python tests for test_url_title.UrlTile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_menu.TestMenu.test_my_menus">
+    <configuration name="Python tests for test_menu.TestMenu.test_my_menus" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBase-course" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pom_tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_url_title.UrlTile&quot;" />
+      <option name="_new_target" value="&quot;test_menu.TestMenu.test_my_menus&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_url_title.UrlTile.test_url_title" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_website.TestWebsite.test_checkbox" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SeleniumBase-course" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,14 +103,65 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_url_title.UrlTile.test_url_title&quot;" />
+      <option name="_new_target" value="&quot;test_website.TestWebsite.test_checkbox&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_website.TestWebsite.test_hover_dropdown" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBase-course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_website.TestWebsite.test_hover_dropdown&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_website.TestWebsite.test_iframe" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBase-course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_website.TestWebsite.test_iframe&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_website.TestWebsite.test_new_tab" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumBase-course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_website.TestWebsite.test_new_tab&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_url_title.UrlTile.test_url_title" />
-        <item itemvalue="Python tests.Python tests for test_url_title.UrlTile" />
+        <item itemvalue="Python tests.Python tests for test_menu.TestMenu.test_my_menus" />
+        <item itemvalue="Python tests.Python tests for test_website.TestWebsite.test_new_tab" />
+        <item itemvalue="Python tests.Python tests for test_website.TestWebsite.test_hover_dropdown" />
+        <item itemvalue="Python tests.Python tests for test_website.TestWebsite.test_iframe" />
+        <item itemvalue="Python tests.Python tests for test_website.TestWebsite.test_checkbox" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752864307847</updated>
-      <workItem from="1752864309002" duration="12710000" />
+      <workItem from="1752864309002" duration="50923000" />
     </task>
     <servers />
   </component>
@@ -119,7 +191,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test_url_title.py</url>
+          <url>file://$PROJECT_DIR$/test_website.py</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -127,7 +199,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/SeleniumBase_course$.coverage" NAME=" Coverage Results" MODIFIED="1752952954281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SeleniumBase_course$.coverage" NAME=" Coverage Results" MODIFIED="1753123959957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pom_tests" />
     <SUITE FILE_PATH="coverage/SeleniumBase_course$main.coverage" NAME="main Coverage Results" MODIFIED="1752937212841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
