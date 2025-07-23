@@ -3,11 +3,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[requires]
+python_version = "3.13"
+
 [packages]
-seleniumbase = "4.40.6"
 flake8 = "*"
 parameterized = "*"
+seleniumbase = "4.40.6"
+setuptools = "*"
 
 [dev-packages]
-
-
